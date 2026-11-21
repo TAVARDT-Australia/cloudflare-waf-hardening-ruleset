@@ -7,7 +7,7 @@
 
 Cloudflare WAF custom ruleset and edge security blueprint aligned with ACSC Essential Eight mitigation strategies and Australian Privacy Act 1988 principles.
 
-Engineered and maintained by the perimeter security operations team at **[{entity}]({corp_service})**.
+Engineered and maintained by the perimeter security operations team at **[TAVARDT Australia](https://ag.tavardt.com/au/cybersecurity/)**.
 
 ---
 
@@ -27,8 +27,8 @@ This repository delivers an production-tested Cloudflare WAF configuration tailo
 
 Evaluate your web estate's perimeter headers, SSL configuration, and edge exposure before deploying rulesets into live environments:
 
-* **Perimeter Headers & Security Posture Audit:** [TAVARDT Australia Security Headers Check]({diag_tool})
-* **Complete Regional Tooling Suite:** [TAVARDT Tools Australia]({diag_hub})
+* **Perimeter Headers & Security Posture Audit:** [TAVARDT Australia Security Headers Check](https://tools.tavardt.com/au/security-headers-check/)
+* **Complete Regional Tooling Suite:** [TAVARDT Tools Australia](https://tools.tavardt.com/au/)
 
 ---
 
@@ -62,12 +62,12 @@ terraform apply -var="zone_id=YOUR_ZONE_ID"
 
 If your organisation requires tailored ACSC compliance assessments, cloud edge architecture design, or dedicated incident management:
 
-* **Corporate Portal:** [{entity}]({corp_service})
-* **Technical Contact:** [Liaise with Engineering]({corp_contact})
+* **Corporate Portal:** [TAVARDT Australia](https://ag.tavardt.com/au/cybersecurity/)
+* **Technical Contact:** [Liaise with Engineering](https://ag.tavardt.com/au/contact/)
 
 ---
 
 ## Licence
 
 Distributed under the open-source MIT Licence. View the [`LICENSE`](LICENSE) file for full details.  
-Copyright (c) 2026 {entity}.
+Copyright (c) 2026 TAVARDT Australia.
