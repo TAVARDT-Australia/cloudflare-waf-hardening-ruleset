@@ -9,6 +9,21 @@ Cloudflare WAF custom ruleset and edge security blueprint aligned with ACSC Esse
 
 Engineered and maintained by the perimeter security operations team at **[TAVARDT Australia](https://ag.tavardt.com/au/cybersecurity/)**.
 
+> [!IMPORTANT]
+> **Universal & Stack-Agnostic Architecture:** This repository is **not limited to WordPress**. It is engineered to protect **RESTful APIs, microservices, modern frontends (Next.js, React), and enterprise backend infrastructure (Node.js, Python, Go, PHP, Java)**. Blocking legacy CMS endpoints operates as an **active edge hygiene layer**, dropping indiscriminate botnet noise directly at Cloudflare's edge (< 1ms) before malicious requests can consume compute resources on your origin servers.
+
+---
+
+### Multi-Stack Defence Matrix
+
+| Defence Layer | Mitigated Vectors | Protected Applications & Stacks |
+| :--- | :--- | :--- |
+| **Credential & Asset Isolation** | Edge drop for `.env`, `.git`, `.sql`, `package.json`, `composer.json` | **APIs, Next.js, Node.js, Python, Go, Laravel, React** |
+| **Threat Scanner Mitigation** | Real-time block for Nikto, SQLMap, Acunetix, Masscan, Gobuster, Nmap | **Public web platforms, microservices, and APIs** |
+| **HTTP Verb Filtering** | Perimeter rejection of testing verbs (`TRACE`, `TRACK`, `DEBUG`) | **REST APIs and microservice architecture** |
+| **Privileged Route Gating** | Automated challenges on sensitive dashboards (`/admin`, `/login`) | **Management consoles, corporate dashboards, web ERPs** |
+| **Zero-Noise Edge Hygiene** | Edge drop for blind probes targeting `/xmlrpc.php` and trackbacks | **Total elimination of origin compute and bandwidth waste** |
+
 ---
 
 ## 1. Edge Defence Architecture
