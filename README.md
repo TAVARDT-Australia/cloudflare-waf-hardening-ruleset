@@ -7,7 +7,7 @@
 
 Cloudflare WAF custom ruleset and edge security blueprint aligned with ACSC Essential Eight mitigation strategies and Australian Privacy Act 1988 principles.
 
-Engineered and maintained by the perimeter security operations team at **TAVARDT Australia**.
+Engineered and maintained by the perimeter security operations team at **TAVARDT**.
 
 > [!IMPORTANT]
 > **Universal & Stack-Agnostic Architecture:** This repository is **not limited to WordPress**. It is engineered to protect **RESTful APIs, microservices, modern frontends (Next.js, React), and enterprise backend infrastructure (Node.js, Python, Go, PHP, Java)**. Blocking legacy CMS endpoints operates as an **active edge hygiene layer**, dropping indiscriminate botnet noise directly at Cloudflare's edge (< 1ms) before malicious requests can consume compute resources on your origin servers.
@@ -42,7 +42,7 @@ This repository delivers an production-tested Cloudflare WAF configuration tailo
 
 Evaluate your web estate's perimeter headers, SSL configuration, and edge exposure before deploying rulesets into live environments:
 
-* **Perimeter Headers & Security Posture Audit:** **TAVARDT Australia Security Headers Check**
+* **Perimeter Headers & Security Posture Audit:** **TAVARDT Security Headers Check**
 * **Complete Regional Tooling Suite:** **TAVARDT Tools Australia**
 
 ***
@@ -77,7 +77,7 @@ terraform apply -var="zone_id=YOUR_ZONE_ID"
 
 If your organisation requires tailored ACSC compliance assessments, cloud edge architecture design, or dedicated incident management:
 
-* **Corporate Portal:** **TAVARDT Australia**
+* **Corporate Portal:** **TAVARDT**
 * **Technical Contact:** [Liaise with Engineering](https://ag.tavardt.com/au/contact/)
 
 ***
@@ -85,4 +85,8 @@ If your organisation requires tailored ACSC compliance assessments, cloud edge a
 ## Licence
 
 Distributed under the open-source MIT Licence. View the [`LICENSE`](LICENSE) file for full details.  
-Copyright (c) 2026 TAVARDT.
+Copyright
+
+***
+
+© 2026 TAVARDT. All rights reserved.
