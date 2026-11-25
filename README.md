@@ -70,16 +70,7 @@ terraform apply -var="zone_id=YOUR_ZONE_ID"
 
 ***
 
-## 4. Bespoke Consulting & Engineering Support
-
-If your organisation requires tailored ACSC compliance assessments, cloud edge architecture design, or dedicated incident management:
-
-* **Corporate Portal:** **TAVARDT**
-* **Technical Contact:** [Liaise with Engineering](https://ag.tavardt.com/au/contact/)
-
-***
-
-## 5. Useful Links
+## 4. Useful Links
 
 * **Corporate Portal:** https://ag.tavardt.com/au/
 * **Diagnostic Suite:** https://tools.tavardt.com/au/
