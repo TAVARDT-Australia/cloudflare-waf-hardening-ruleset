@@ -1,13 +1,10 @@
 # Cloudflare WAF Hardening Ruleset & Edge Security Blueprint
 
-[![Licence MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Cloudflare WAF](https://img.shields.io/badge/Cloudflare-WAF%20Hardened-F38020.svg?logo=cloudflare)](https://cloudflare.com)
-[![Language](https://img.shields.io/badge/Language-English%20(Australia)-green.svg)](README.md)
 [![Diagnostics Suite](https://img.shields.io/badge/TAVARDT-Diagnostics-5b3cf5.svg)](https://tools.tavardt.com/au/security-headers-check/)
+[![Licence MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Cloudflare WAF custom ruleset and edge security blueprint aligned with ACSC Essential Eight mitigation strategies and Australian Privacy Act 1988 principles.
-
-Engineered and maintained by the perimeter security operations team at **TAVARDT**.
 
 > [!IMPORTANT]
 > **Universal & Stack-Agnostic Architecture:** This repository is **not limited to WordPress**. It is engineered to protect **RESTful APIs, microservices, modern frontends (Next.js, React), and enterprise backend infrastructure (Node.js, Python, Go, PHP, Java)**. Blocking legacy CMS endpoints operates as an **active edge hygiene layer**, dropping indiscriminate botnet noise directly at Cloudflare's edge (< 1ms) before malicious requests can consume compute resources on your origin servers.
@@ -82,7 +79,7 @@ If your organisation requires tailored ACSC compliance assessments, cloud edge a
 
 ***
 
-## Useful Links
+## 5. Useful Links
 
 * **Corporate Portal:** https://ag.tavardt.com/au/
 * **Diagnostic Suite:** https://tools.tavardt.com/au/
@@ -92,7 +89,7 @@ If your organisation requires tailored ACSC compliance assessments, cloud edge a
 
 ### Licence
 
-Distributed under the open-source MIT Licence. View the [`LICENSE`](LICENSE) file for full details.
+Distributed under the open-source MIT Licence.
 
 ***
 
